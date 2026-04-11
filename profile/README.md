@@ -14,7 +14,9 @@
 
 운영 환경(Seoul)의 부하를 방지하기 위해 분석 환경(Ohio)을 분리한 멀티 리전 아키텍처입니다. 발생한 Audit Log는 Kafka를 거쳐 Flink에서 실시간 처리되며, 최종적으로 React 대시보드를 통해 관리자에게 위협 알림이 전송됩니다.
 
-![System Architecture]()
+<img width="1219" height="562" alt="Image" src="https://github.com/user-attachments/assets/839a3c2f-3afb-4078-8ad7-44fb12e38319" />
+
+## 레포지토리 가이드(Repository Guide)
 
 ## 🛠️ 기술 스택 (Tech Stack)
 - **Data Engineering:** Apache Kafka, Apache Flink
